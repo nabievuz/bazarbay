@@ -1,0 +1,23 @@
+.vscode
+node_modules
+
+# Public Content
+public/content/*
+!public/content/*.md
+# Initial Setup Content
+!public/content/assets/images/logo.png
+!public/content/assets/images/slide7.jpg
+!public/content/assets/images/slide8.jpg
+!public/content/assets/images/slide9.jpg
+
+theme/dist/*
+theme/assets/js/app-*
+theme/assets/js/theme-*
+theme/assets/css/bundle-*
+theme/assets/index.html
+theme/assets/sw.js
+theme/assets/precache-manifest.*.js
+dist/*
+logs/*.log
+npm-debug.log*
+*.zip
